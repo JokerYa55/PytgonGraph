@@ -2,7 +2,7 @@ import random
 from PIL import Image, ImageDraw
 
 mode = int(input('mode:')) #Считываем номер преобразования. 
-image = Image.open("44.jpg") #Открываем изображение. 
+image = Image.open("55.jpg") #Открываем изображение. 
 draw = ImageDraw.Draw(image) #Создаем инструмент для рисования. 
 width = image.size[0] #Определяем ширину. 
 height = image.size[1] #Определяем высоту. 	
