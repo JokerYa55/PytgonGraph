@@ -25,7 +25,6 @@ if (mode == 1):
             b = pix[i, j][1]
             c = pix[i, j][2]
             S = a + b + c
-            #sdfsdfd
             if (S > (((255 + factor) // 3) * 3)):
                 a, b, c = 255, 255, 255
             else:
